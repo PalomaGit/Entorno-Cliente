@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../Bloque06-multimedia/css/styles.css">
+    <title>Bloque6</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aprendiendo Multimedia</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="#">Sobre mi</a>
+        <a href="#">Contacto</a>
+        <a href="#">Galería</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Vídeo incrustado dede youTube</h2>
+            <!-- Vídeo incrustado desde YouTube usando iframe -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TLwhqmf4Td4?si=lg3sQhaN4xa6Ug2v"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--Esto no funciona
+            <video width="480" controls poster="https://www.youtube.com/watch?v=TLwhqmf4Td4">
+                <source src="/video/countdown.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de
+                video.
+            </video>
+            -->
+        </section>
+        <section>
+            <h2>Audio local</h2>
+            <!-- Reproductor de audio desde un archivo local MP3 -->
+            <audio controls>
+                <source src="countdown.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de
+                audio.
+            </audio>
+        </section>
+        <section>
+            <h2>Vídeo incrustado desde YouTube</h2>
+            <!-- Otro vídeo incrustado desde YouTube con iframe -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1PnVor36_40" title="Flexbox Tutorial"
+                frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h2>Nuevo video en linea con la etiqueta video</h2>
+            <!-- Vídeo en línea usando la etiqueta <video> con fuente externa -->
+            <video controls loop muted width="600">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+
+            </video>
+        </section>
+        <section>
+            <h2>Audio local</h2>
+            <!-- Reproductor de audio desde archivo OGG -->
+            <audio controls muted>
+                <source src="No Place For Straw Cowboys.ogg" type="audio/mpeg">
+
+            </audio>
+        </section>
+        <section>
+            <h2>Video en linea con el atributo poster</h2>
+            <!-- Video con imagen de portada (poster) antes de reproducirse -->
+            <video controls width="600" poster="https://www.w3schools.com/html/pic_trulli.jpg">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h2>video con otro enlace</h2>
+            <!-- Otro vídeo incrustado desde YouTube mediante iframe -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vHrfX4dRP7w"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </section>
+    </main>
+    <a href="../index.html">Volver</a>
+    <footer>
+        <h3> Enrique en clase aprendiendo Multimedia</h3>
+    </footer>
+    
+</body>
+
+</html>

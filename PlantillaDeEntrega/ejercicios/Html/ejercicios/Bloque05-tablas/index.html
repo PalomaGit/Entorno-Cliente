@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../Bloque05-tablas/css/styles.css">
+    <title>Bloque5</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aprendiendo tablas</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="#">Sobre mi</a>
+        <a href="#">Contacto</a>
+        <a href="#">Galería</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Resultados del examen</h2>
+
+            <table>
+                <caption>Listado de Estudiantes</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Asignatura</th>
+                        <th scope="col">Nota</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ana López</td>
+                        <td>HTML</td>
+                        <td>9.2</td>
+                    </tr>
+                    <tr>
+                        <td>Marcos Ruiz</td>
+                        <td>CSS</td>
+                        <td>8.7</td>
+                    </tr>
+                    <tr>
+                        <td>Carmen Gil</td>
+                        <td>JavaScript</td>
+                        <td>9.5</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo Seguro</td>
+                        <td>Java</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+                <tr>
+                    <td colspan="2">Nota media</td>
+                    <td>7.8</td>
+                </tr>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <table>
+                <caption>Horario</caption>
+
+                <thead>
+                    <tr>
+                        <th>Asignaturas</th>
+                        <th scope="col">Lunes</th>
+                        <th scope="col">Martes</th>
+                        <th scope="col">Miércoles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Matemáticas</th>
+                        <td>8:00</td>
+                        <td>9:00</td>
+                        <td>10:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Historia</th>
+                        <td>10:00</td>
+                        <td>11:00</td>
+                        <td>8:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Lenguaje</th>
+                        <td class="centrado" colspan="3">10:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Taller</th>
+                        <td class="centrado" colspan="2">10:00</td>
+                        <td>08:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <a href="../index.html">Volver</a>
+    <footer>
+        <p> Enrique en clase aprendiendo tablas</p>
+    </footer>
+   
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+                /* -----------------------------
+Multimedia (video, audio, iframe)
+----------------------------- */
+video, audio, iframe {
+display: block;
+margin: 20px auto;
+max-width: 100%;
+border-radius: 8px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}

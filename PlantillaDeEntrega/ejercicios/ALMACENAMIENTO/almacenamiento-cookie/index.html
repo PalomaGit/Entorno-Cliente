@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Cookies</title>
+	<link rel="stylesheet" href="../../css/styles.css" />
+	<link rel="stylesheet" href="../../../css/styles.css" />
+	<script defer src="./js/actualizarDato.js"></script>
+	<script defer src="./js/borrarDato.js"></script>
+	<script defer src="./js/grabarDato.js"></script>
+	<script defer src="./js/mostrarDatos.js"></script>
+	<script defer src="./js/script.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="header-profile">
+			<img src="../../../img/logojs6.png" alt="Foto de perfil" />
+		</div>
+		<div class="header-content">
+			<h3>JavaScrip (EcmaScript 6) JS6</h3>
+			<h4>Desarrollo WEB en entorno cliente</h4>
+			<h5>ALMACENAMIENTO. Cookies</h5>
+		</div>
+		<div class="header-profile">
+			<img src="../../../img/fotoPerfil.png" alt="Perfil" />
+		</div>
+	</header>
+
+	<!-- Menú de navegación -->
+	<nav>
+		<ul class="navbar">
+			<li><a href="https://www.w3schools.com/js/default.asp">w3schools</a></li>
+			<li><a href="https://es.javascript.info/js">javascript.info</a></li>
+			<li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a></li>
+		</ul>
+	</nav>
+	<main>
+
+		<div class="container">
+			<div class="card">
+				<div class="cardTitle">Práctica. CRUD. JSES6. 'cookies'</div>
+
+				<div class="cardBody">
+					<form id="form1" action="#" method="post">
+						<fieldset>
+							<legend>Guardar nombre y valor</legend>
+							<table id="tabla" class="filas">
+								<thead>
+									<tr>
+										<th><label for="nombre">Introduce un nombre</label></th>
+										<th><label for="valor">Introduce un valor</label></th>
+									</tr>
+									<tr>
+										<th>
+											<input type="text" id="nombre" class="control" name="nombre" size="20"
+												placeholder="Escribe un nombre..." required />
+										</th>
+										<th>
+											<input type="text" id="valor" class="control" name="valor" size="20"
+												placeholder="Escribe un valor..." required />
+										</th>
+										<th>
+											<button type="button" id="guardar"> Guardar
+												<img src="./img/save.svg" alt="Guardar" width="22" height="22"
+													style="vertical-align: middle" />
+											</button>
+										</th>
+									</tr>
+								</thead>
+								<tbody id="cuerpo">
+								</tbody>
+							</table>
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="cardFooter"><a href="../../../index.html">&gt;&gt; Página principal</a></div>
+
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>© Paloma Ocaña Piña ©</p>
+	</footer>
+</body>
+
+</html>

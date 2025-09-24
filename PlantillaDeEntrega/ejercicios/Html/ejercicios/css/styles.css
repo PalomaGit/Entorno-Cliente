@@ -1,0 +1,127 @@
+/* -----------------------------
+Encabezado principal
+----------------------------- */
+header {
+    color: white;
+    text-align: center;
+}
+
+/* -----------------------------
+Menú de navegación
+----------------------------- */
+nav {
+    background-color: #007acc;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #005f99;
+}
+
+/* -----------------------------
+Contenido principal
+----------------------------- */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* -----------------------------
+Pie de página
+----------------------------- */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* -----------------------------
+Estilo de textos
+----------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #004080;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: bold;
+    color: #000;
+}
+
+em {
+    font-style: italic;
+    color: #333;
+}
+
+/* -----------------------------
+Estilo de enlaces
+----------------------------- */
+a {
+    color: #007acc;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: #005f99;
+    text-decoration: underline;
+}
+
+/* -----------------------------
+Estilo de listas
+----------------------------- */
+ul,
+ol {
+    margin: 1em 0 1em 2em;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* -----------------------------
+Estilo de imágenes
+----------------------------- */
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+img:hover {
+    border-radius: 50px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+
+
+
+}

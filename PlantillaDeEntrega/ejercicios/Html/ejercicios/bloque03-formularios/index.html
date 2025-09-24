@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bloque03-formularios/css/styles.css">
+    <title>formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi sitio web</h1>
+        <h2>Desarrollo web en entorno cliente</h2>
+    </header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="#">Sobre mi</a>
+        <a href="#">Contacto</a>
+        <a href="#">Galería</a>
+    </nav>
+    <section>
+        <h2>Formulario de contacto</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Formulario</legend>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required><br><br>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required><br><br>
+                <label for="contrasena">Contraseña:</label><br>
+                <input type="password" id="contraseña" name="contraseña" placeholder="Introduce tu contraseña" required>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="40"
+                    placeholder="Escribe tu mensaje aquí..."></textarea><br><br>
+                <label for="edad">Edad:</label><br>
+                <input type="number" id="edad" name="edad" min="0" max="120" placeholder="Edad" required>
+                <br><br>
+                <fieldset class="blanco">
+                    <legend>Lenguaje</legend>
+                    <input type="checkbox" name="lmarca" value="html" required>
+                    <label for="html">Html</label><br>
+
+                    <input type="checkbox" name="lmarca" value="css" required>
+                    <label for="css">Css</label><br>
+                </fieldset>
+                <fieldset class="blanco">
+                    <legend>Nivel</legend>
+                    <input type="radio" id="nivel facil" name="nivel" value="nivel facil">
+                    <label for="nivel facil">Nivel facil</label><br>
+                    <input type="radio" id="nivel medio" name="nivel" value="nivel medio">
+                    <label for="nivel medio">Nivel medio</label><br>
+                    <input type="radio" id="nivel alto" name="nivel" value="nivel alto">
+                    <label for="nivel alto">Nivel alto</label><br>
+                </fieldset>
+
+                <br><br>
+                <label for="lenguaje">Lenguaje favorito:</label><br>
+                <select id="lenguaje" name="lenguaje" required>
+                    <option value="" hidden>--Selecciona uno--</option>
+                    <option value="html">Html</option>
+                    <option value="css">Css</option>
+                    <option value="js">JavaScript</option>
+                </select><br><br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+
+        </form>
+
+    </section>
+    <a href="../index.html">Volver</a>
+    
+</body>
+
+</html>

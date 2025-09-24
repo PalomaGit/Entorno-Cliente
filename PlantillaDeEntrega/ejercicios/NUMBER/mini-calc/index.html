@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La Plantilla en HTML5">
+  <title>Tipo NUMBER. Mini calculadora</title>
+  <link rel="stylesheet" href="../../../css/styles.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <script src="../js/validar.js" type="text/javascript" defer></script>
+  <script src="./js/script.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-profile">
+      <img src="../../../img/logojs6.png" alt="Foto de perfil" />
+    </div>
+    <div class="header-content">
+      <h3>JavaScrip (EcmaScript 6) JS6</h3>
+      <h4>Desarrollo WEB en entorno cliente</h4>
+      <h5>Tipo NUMBER. Mini calculadora</h5>
+    </div>
+    <div class="header-profile">
+      <img src="../../../img/fotoPerfil.png" alt="Foto de perfil" />
+    </div>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <ul class="navbar">
+      <li><a href="https://www.w3schools.com/js/default.asp">w3schools</a></li>
+      <li><a href="https://es.javascript.info/js">javascript.info</a></li>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal de la página -->
+  <main>
+
+    <div class="container">
+      <div class="card">
+        <div class="cardTitle">Mini calculadora</div>
+        <div class="cardBody">
+          <fieldset>
+            <legend>Operaciones:</legend>
+            <label>Operando 1:</label>
+            <input class="operando" type="text">
+            <label>Operando 2:</label>
+            <input class="operando" type="text">
+            <br><br>
+            <input class="btn-operacion" data-op="+" type="button" value="+">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="-" type="button" value="-">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="*" type="button" value="*">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="/" type="button" value="/">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="entera" type="button" value="_.">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="decimal" type="button" value="._">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="raiz" type="button" value="&Sqrt;">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="log10" type="button" value="log(10)">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="loge" type="button" value="log(e)">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="logn" type="button" value="log(n)">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="aleatorio" type="button" value="🎲">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="aleatorio_rango" type="button" value="[🎲]">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="intercambiar" type="button" value="🔁">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="aleatorio_letraM" type="button" value="[A...Z]">&nbsp;&nbsp;
+            <input class="btn-operacion" data-op="aleatorio_letram" type="button" value="[a...z]">&nbsp;&nbsp;
+          </fieldset>
+          <p><span id="texto"></span><strong id="resultado"></strong></p>
+        </div>
+        <div class="cardFooter"><a href="../../../index.html">&gt;&gt; Página principal</a></div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    © Paloma Ocaña Piña ☺
+  </footer>
+</body>
+
+</html>
